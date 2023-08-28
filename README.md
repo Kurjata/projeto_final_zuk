@@ -30,6 +30,16 @@ Este projeto foi desenvolvido utilizando uma combinação poderosa de tecnologia
    git clone https://github.com/seu-username/projeto-fullstack.git
 
 
+
+---
+
+Navegue até a pasta do projeto e instale as dependências necessárias (caso tenha).
+cd projeto-fullstack
+Configure sua conexão com o banco de dados MySQL no arquivo de configuração.
+
+Execute o projeto e aproveite!
+
+---
    🤝 Contribuições
 Contribuições são sempre bem-vindas! Se você tiver alguma sugestão, correção ou melhoria, sinta-se à vontade para abrir uma "issue" ou "pull request".
 
