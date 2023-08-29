@@ -2,6 +2,8 @@
 
 ![Badge](https://img.shields.io/badge/technology-HTML-brightgreen) ![Badge](https://img.shields.io/badge/technology-CSS-blue) ![Badge](https://img.shields.io/badge/technology-JavaScript-yellow) ![Badge](https://img.shields.io/badge/technology-PHP-blueviolet) ![Badge](https://img.shields.io/badge/technology-MySQL-orange)
 
+![video_projeto_zuk](https://github.com/Kurjata/projeto_final_zuk/assets/128336634/b68e3775-0b0b-4ebf-9154-39f372dc734f)
+
 ---
 
 ## 📖 Sobre
