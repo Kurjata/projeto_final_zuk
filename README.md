@@ -29,14 +29,14 @@ Este projeto foi desenvolvido utilizando uma combinação poderosa de tecnologia
 
 1. Clone o repositório para sua máquina local.
    ```bash
-   git clone https://github.com/seu-username/projeto-fullstack.git
+   git clone https://github.com/Kurjata/projeto_final_zuk.git
 
 
 
 ---
 
 Navegue até a pasta do projeto e instale as dependências necessárias (caso tenha).
-cd projeto-fullstack
+cd projeto-fullstack.
 Configure sua conexão com o banco de dados MySQL no arquivo de configuração.
 
 Execute o projeto e aproveite!
