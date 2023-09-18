@@ -25,6 +25,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
   <title>Serenatto - Admin</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 <body>
 <main>
@@ -66,9 +67,13 @@
 
       </tbody>
     </table>
+  
   <a class="botao-cadastrar" href="cadastrar-produto.php">Cadastrar produto</a>
+  <button class="botao-cadastrar">Relatório dinâmico</button>
+  <div class="result"></div>
   </form>
   </section>
 </main>
+<script src="js/relatoriodinamico.js"></script>
 </body>
 </html>

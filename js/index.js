@@ -1,1 +1,2 @@
-var preco = $('#preco').maskMoney()
+var preco = $('#preco').maskMoney();
+
