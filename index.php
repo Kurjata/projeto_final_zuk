@@ -20,6 +20,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/relogio.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,8 +28,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
     <title>Serenatto - Cardápio</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
+<h2>Cardápio Digital</h2>
+<div id="relogio"></div>
+
     <main>
         <section class="container-banner">
             <div class="container-texto-banner">
@@ -74,5 +79,19 @@
 
         </section>
     </main>
+    <script>
+    $(document).ready(function() {
+        function atualizarRelogio() {
+            let dataAtual = new Date();
+            let horas = dataAtual.getHours().toString().padStart(2, '0');
+            let minutos = dataAtual.getMinutes().toString().padStart(2, '0');
+            let segundos = dataAtual.getSeconds().toString().padStart(2, '0');
+            $('#relogio').text(`${horas}:${minutos}:${segundos}`);
+        }
+
+        atualizarRelogio(); // Chama a função imediatamente para exibir a hora atual
+        setInterval(atualizarRelogio, 1000); // Atualiza o relógio a cada segundo
+    });
+</script>
 </body>
 </html>
