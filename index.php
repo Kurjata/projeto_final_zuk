@@ -32,15 +32,17 @@
 </head>
 <body>
 <h2>Cardápio Digital</h2>
-<div id="relogio"></div>
+<div class="relogio">
+    <p>Qual a hora da sua fome?</p>
+    <div id="relogio"></div>
+</div>
 
     <main>
         <section class="container-banner">
             <div class="container-texto-banner">
                 <img src="img/logo-serenatto.png" class="logo" alt="logo-serenatto">
             </div>
-        </section>
-        <h2>Cardápio Digital</h2>
+        </section>g
         <section class="container-cafe-manha">
             <div class="container-cafe-manha-titulo">
                 <h3>Opções para o Café</h3>
@@ -89,8 +91,8 @@
             $('#relogio').text(`${horas}:${minutos}:${segundos}`);
         }
 
-        atualizarRelogio(); // Chama a função imediatamente para exibir a hora atual
-        setInterval(atualizarRelogio, 1000); // Atualiza o relógio a cada segundo
+        atualizarRelogio();
+        setInterval(atualizarRelogio, 1000);
     });
 </script>
 </body>
