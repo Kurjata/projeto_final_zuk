@@ -31,20 +31,21 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
-<h2>Cardápio Digital</h2>
-<div class="relogio">
-    <p>Qual a hora da sua fome?</p>
-    <div id="relogio"></div>
-</div>
+
 
     <main>
         <section class="container-banner">
             <div class="container-texto-banner">
                 <img src="img/logo-serenatto.png" class="logo" alt="logo-serenatto">
             </div>
-        </section>g
+        </section>
         <section class="container-cafe-manha">
+        <div class="relogio">
+                <p>Qual a hora da sua fome?</p>
+                <div id="relogio"></div>
+        </div>
             <div class="container-cafe-manha-titulo">
+            <h2>Cardápio Digital</h2>
                 <h3>Opções para o Café</h3>
                 <img class= "ornaments" src="img/ornaments-coffee.png" alt="ornaments">
             </div>
@@ -81,19 +82,6 @@
 
         </section>
     </main>
-    <script>
-    $(document).ready(function() {
-        function atualizarRelogio() {
-            let dataAtual = new Date();
-            let horas = dataAtual.getHours().toString().padStart(2, '0');
-            let minutos = dataAtual.getMinutes().toString().padStart(2, '0');
-            let segundos = dataAtual.getSeconds().toString().padStart(2, '0');
-            $('#relogio').text(`${horas}:${minutos}:${segundos}`);
-        }
-
-        atualizarRelogio();
-        setInterval(atualizarRelogio, 1000);
-    });
-</script>
+<script src="js/relogio.js"></script>
 </body>
 </html>
