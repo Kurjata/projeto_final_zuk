@@ -1,9 +1,11 @@
 .relogio{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: flex;
     justify-content: space-evenly;
     color: #FFF;
     font-weight: bold;
     font-size: 28px;
+    padding-top: 32px;
 
 
     

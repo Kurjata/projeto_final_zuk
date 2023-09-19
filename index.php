@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/relogio.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/admin.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="icon" href="img/icone-serenatto.png" type="image/x-icon">
@@ -45,7 +46,7 @@
                 <div id="relogio"></div>
         </div>
             <div class="container-cafe-manha-titulo">
-            <h2>Cardápio Digital</h2>
+                
                 <h3>Opções para o Café</h3>
                 <img class= "ornaments" src="img/ornaments-coffee.png" alt="ornaments">
             </div>
@@ -81,6 +82,7 @@
             </div>
 
         </section>
+        <a class="botao-cadastrar" href="admin.php">Administrador</a>
     </main>
 <script src="js/relogio.js"></script>
 </body>
