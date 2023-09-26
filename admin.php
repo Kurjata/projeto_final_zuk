@@ -73,6 +73,8 @@
   <div class="result"></div>
   </form>
   </section>
+  <br>
+  <br>
   <a class="botao-cadastrar" href="index.php">Voltar</a>
 </main>
 <script src="js/relatoriodinamico.js"></script>

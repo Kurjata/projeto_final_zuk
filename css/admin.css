@@ -1,60 +1,59 @@
 
-.container-admin-banner{
+.container-admin-banner {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin: 80px 0px 20px;
+    margin: 80px 0 20px;
 }
 
-.logo-admin{
+.logo-admin {
     width: 400px;
 }
 
-h2{
+h2 {
     font-size: 24px;
 }
 
-.container-table{
+.container-table {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-table{
+table, .dynamic-table {
     width: 90%;
     margin: auto 0;
     padding-top: 18px;
-}
-table, th, td{
     border: 1px solid #EBC181;
 }
 
-table th{
-    padding: 11px 0 11px;
+table th, table td, .dynamic-table th, .dynamic-table td {
+    font-size: 18px;
+    padding: 8px;
+}
+
+table th, .dynamic-table th {
     background-color: #EBC181;
     color: #333B1E;
     font-weight: bold;
-    font-size: 18px;
     text-align: left;
-    padding: 8px;
 }
 
-table tr{
+table tr, .dynamic-table tr {
     border: 1px solid #ddd;
 }
 
-table td{
+table td {
     color: #FFF;
-    font-size: 18px;
-    padding: 8px;
 }
-.container-admin-banner h1{
+
+.container-admin-banner h1 {
     margin-top: 40px;
     font-size: 30px;
     color: #EBC181;
 }
 
-.container-lista-produtos{
+.container-lista-produtos {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,24 +61,26 @@ table td{
     margin: auto 0;
 }
 
-.container-lista{
+.container-lista {
     width: 90%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: solid #EBC181 0.5px;
+    border: 0.5px solid #EBC181;
     border-radius: 10px;
     padding: 10px;
     margin: 3px 0;
 }
 
-.container-lista h3{
+.container-lista h3 {
     color: #FFFFFF;
     font-weight: 600;
     font-size: 20px;
 }
 
-table tbody tr td a, .botao-cadastrar, .botao-excluir{
+table tbody tr td a, 
+.botao-cadastrar, 
+.botao-excluir {
     padding: 3px 10px;
     border-radius: 10px;
     color: #FFFFFF;
@@ -90,13 +91,14 @@ table tbody tr td a, .botao-cadastrar, .botao-excluir{
     font-size: 18px;
 }
 
-
-table tbody tr td a:hover, .botao-cadastrar:hover, .botao-excluir:hover{
+table tbody tr td a:hover, 
+.botao-cadastrar:hover, 
+.botao-excluir:hover {
     cursor: pointer;
     filter: saturate(150%);
 }
 
-.botao-cadastrar{
+.botao-cadastrar {
     background: #EBC181;
     color: #333B1E;
     font-weight: 600;
@@ -107,37 +109,47 @@ table tbody tr td a:hover, .botao-cadastrar:hover, .botao-excluir:hover{
     border: none;
 }
 
-
-.botao-editar{
+.botao-editar {
     background: #9B8357;
 }
 
-.botao-excluir{
+.botao-excluir {
     background: crimson;
-
-}table, .dynamic-table {
-    width: 90%;
-    margin: auto 0;
-    border: 1px solid #EBC181;
 }
 
-table th, .dynamic-table th {
-    padding: 11px 0 11px;
-    background-color: #EBC181;
-    color: #333B1E;
-    font-weight: bold;
-    font-size: 18px;
-    text-align: left;
-    padding: 8px;
-}
 
-table tr, .dynamic-table tr {
-    border: 1px solid #ddd;
-}
+@media only screen and (max-width: 768px) {
+    .container-admin-banner .logo-admin {
+        width: 80%;
+        margin: 20px 0;
+    }
 
-table td, .dynamic-table td {
-    color: #FFF;
-    font-size: 18px;
-    padding: 8px;
-}
+    table, .dynamic-table {
+        width: 100%; 
+    }
 
+    h2 {
+        font-size: 20px;
+        margin: 20px 0;
+    }
+
+    .botao-cadastrar, .botao-editar, .botao-excluir {
+        font-size: 16px;
+        padding: 5px 10px;
+    }
+
+    table td, .dynamic-table td {
+        font-size: 16px;
+        padding: 6px;
+    }
+
+    table th, .dynamic-table th {
+        font-size: 16px;
+        padding: 6px;
+    }
+
+   
+    .container-table {
+        overflow-x: auto;
+    }
+}
