@@ -69,10 +69,11 @@
     </table>
   
   <a class="botao-cadastrar" href="cadastrar-produto.php">Cadastrar produto</a>
-  <button class="botao-cadastrar">Relatório dinâmico</button>
+  <button class="botao-cadastrar">Relatório dinâmico</button> <br>
   <div class="result"></div>
   </form>
   </section>
+  <a class="botao-cadastrar" href="index.php">Voltar</a>
 </main>
 <script src="js/relatoriodinamico.js"></script>
 </body>

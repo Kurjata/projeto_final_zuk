@@ -23,6 +23,7 @@ h2{
 table{
     width: 90%;
     margin: auto 0;
+    padding-top: 18px;
 }
 table, th, td{
     border: 1px solid #EBC181;
@@ -113,4 +114,30 @@ table tbody tr td a:hover, .botao-cadastrar:hover, .botao-excluir:hover{
 
 .botao-excluir{
     background: crimson;
+
+}table, .dynamic-table {
+    width: 90%;
+    margin: auto 0;
+    border: 1px solid #EBC181;
 }
+
+table th, .dynamic-table th {
+    padding: 11px 0 11px;
+    background-color: #EBC181;
+    color: #333B1E;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: left;
+    padding: 8px;
+}
+
+table tr, .dynamic-table tr {
+    border: 1px solid #ddd;
+}
+
+table td, .dynamic-table td {
+    color: #FFF;
+    font-size: 18px;
+    padding: 8px;
+}
+

@@ -82,6 +82,7 @@
             </div>
 
         </section>
+        <br>
         <a class="botao-cadastrar" href="admin.php">Administrador</a>
     </main>
 <script src="js/relogio.js"></script>
