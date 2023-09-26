@@ -81,6 +81,9 @@
         </form>
     
     </section>
+    <br>
+    <br>
+    <a class="botao-cadastrar" href="admin.php">Voltar</a>
 </main>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
